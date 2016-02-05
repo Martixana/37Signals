@@ -191,7 +191,7 @@ header h5{
 	width:69px;
 	height:36px;
 	position:relative;
-	top:-35px;
+	top: -20px;
 }
 /*
 * GLOBE IMAGE
@@ -298,9 +298,9 @@ header h5{
 *ARROW RIGHT IMAGE
 */
 .arrow-right {
-	width: 69px;
+	width: 75px;
 	position: absolute;
-	top: 140px;
+	top: 130px;
 	right: 5px;
 }
 /*
@@ -391,7 +391,7 @@ line-height: 1.5em;
 	padding: 5px;
 }
 .offerings .column a,
-.offerings .column-end  {
+.offerings .column-end a {
 	font-size: 22px;
 	font-weight: bold;
 	color: #222;
