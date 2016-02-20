@@ -427,6 +427,12 @@ footer a:hover {
 		font-size: 10px;
 		color: #999;  margin-top: 50px;
 	}
+	
+		@media(max-width:579px){
+			nav ul {
+				width:80%;
+			}
+		}
 
 
 
