@@ -253,6 +253,12 @@ header h5{
 	line-height:1.4em;
 	font-size: 12px	
 }
+
+ #Ourmanifesto{
+		display:none;
+	}
+ 
+	
 /*
 *REWORK
 */
@@ -428,11 +434,262 @@ footer a:hover {
 		color: #999;  margin-top: 50px;
 	}
 	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+/*==============MEDIA QUERIES=============*/	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 		@media(max-width:579px){
-			nav ul {
-				width:80%;
+			
+			/*
+			*HR STYLES
+			*
+			hr{
+					height: 5px;
 			}
+			
+			/*
+			*NAVIGATION
+			*/
+			nav{
+				height:20px;
+			}
+			
+			nav ul {
+			text-align:center;
+				margin:0px;
+				width:100%;
+				padding: 5px;
+			}
+			
+			nav li{
+				padding:1px;
+				font-size:10px;
+			}
+		/*IMAGE*/
+		
+		img{
+		height:32px;
+		width:100px;
 		}
+			/*
+			*HEADER
+			*/
+			
+			header{
+				padding: 2px 0;
+				width:100%;
+				font-family:"CrimsonSemiBold", serif;
+			}
+			
+			header h1{
+				font-size:18px;
+				font-weight:bold;
+				width:100%;
+				margin:0px 3px;
+				margin-bottom:7px;
+				letter-spacing: -1px;
+				line-height:0.8em;
+				text-align:left;
+			}
+			
+			header h5{
+				font-weight:normal;
+				font-size: 13px;
+				line-height: 1.2em;
+				margin: 50px 3px 0px 3px;
+				width:100%;
+			 text-align:left;
+			}
+			
+			
+			/*
+			*PRODUCTS
+			*/
+			
+			.products{
+				height: 100%;
+				width:100%;
+				padding-bottom:10px;
+				font-family: 'Lucinda Grande', sans-serif;
+			}
+			
+			.products a{
+				position: relative;
+				top: 0px;
+				left: 0px;
+				margin:5px 3px;
+				width:100%;
+	   flaot:left;
+				padding: 5px 5px;
+			}
+			
+			
+			/*
+			*CUSTOMERS
+			*/
+			
+			.customers h2{
+				display:none
+			}
+			
+	  #loyal_customers{
+				display:none;
+			}
+			
+	  #trusted {
+					height:40px;
+					width:400px;
+					margin:5px;
+					margin-top:50px;
+					padding:0px;
+					font-size: 16px;
+					font-weight:bold;
+					line-height: 1em;
+					letter-spacing:-1px;
+					text-align:left;
+			}
+			
+			
+			/*
+			*MEET SOME CUSTOMERS
+			*/
+			
+			.meet {
+				display:none;
+				}
+				
+				#brands{
+					height:40px;
+					width:380px;
+					margin-top:20px;
+					margin-bottom:5px;
+					margin-left:3px;
+				}
+				
+			
+			/*
+			*RED ARROW IMAGE
+			*/
+			.arrow-left {
+				display:none;
+			}
+			
+			/*
+			* GLOBE IMAGE
+			*/
+			.globe {
+				display:none;
+			}
+
+			/*==========================
+			*COME BACK TO FIX MANIFESTO
+			============================
+			*/
+			
+			#Yourmanifesto{
+				display:none;
+			}
+			
+			#Ourmanifesto{
+				display:block;
+				text-align:left;
+				font-family:"CrimsonSemibold", serif;
+				font-size: 16px;
+				font-weight:bold;
+				color: #232323;
+				line-height: 1em;
+				letter-spacing: -1px;
+				margin: 0px;
+			}
+			
+			.column,
+			.column-end{
+			 text-align:left;
+				color: #222;
+				font-size: 18px;
+				line-height:1.5em;
+				margin:30px 3px;
+				width:100%;
+			}
+			
+			}
+			.manifesto h3 {
+				float: left;
+				font-size:58px;
+				line-height: normal;
+				margin: -10px 15px 0 0;
+				color:#CCC;
+			}
+			.manifesto h4 {
+				font-family: 'Lucinda Grande', sans-serif;
+				font-size: 16px;
+				margin: 5px 0;
+				color: #C00;
+				text-align: left;
+			}
+			.manifesto p {
+				font-family: 'Lucinda Grande', sans-serif;
+				text-align:left;
+				line-height:1.4em;
+				font-size: 12px	
+			}
+			
+			
+			/*
+			*REWORK
+			*/
+			.rework {
+				display:none;
+			}
+			
+		
+			/*
+			* OFFERINGS
+			*/
+			
+		
+			.offerings, .column{
+			margin:0px;
+			}
+			
+			.offerings h2 {
+				display:none;
+			}
+			
+			.main-offerings {
+				display:none;
+			}
+			
+			#Ourservices, #Ourbooks{
+				display:block
+				margin:0px;
+			}
+			
+		 .column, .column-end {
+			width:100%;
+			height:100%;
+			padding:0px;
+			}
+			
+			
+			
+			}
 
 
 
