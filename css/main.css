@@ -25,7 +25,7 @@ a{
 header,
 section {
 	margin: 30px auto;
-	width: 825px;
+	width: 80%;
 	display: block;
 }
 /*
@@ -205,7 +205,7 @@ header h5{
 */
 .manifesto {
 	margin-bottom: 50px;
-	padding-left:15px;
+	padding:3px;
 	overflow:hidden;
 	text-align:center;
 	font-family: "CrimsonRoman", serif;
@@ -252,6 +252,10 @@ header h5{
 	text-align:left;
 	line-height:1.4em;
 	font-size: 12px	
+}
+
+.number_fix{
+ clear:left
 }
 
  #Ourmanifesto{
@@ -454,7 +458,7 @@ footer a:hover {
 	
 	
 	
-		@media(max-width:579px){
+		@media(max-width:578px){
 			
 			/*
 			*HR STYLES
@@ -498,11 +502,10 @@ footer a:hover {
 			}
 			
 			header h1{
-				font-size:18px;
+				font-size:20px;
 				font-weight:bold;
 				width:100%;
-				margin:0px 3px;
-				margin-bottom:7px;
+				margin:0px 0px 35px 10px;
 				letter-spacing: -1px;
 				line-height:0.8em;
 				text-align:left;
@@ -512,7 +515,7 @@ footer a:hover {
 				font-weight:normal;
 				font-size: 13px;
 				line-height: 1.2em;
-				margin: 50px 3px 0px 3px;
+				margin: 40px 10px 0px 10px;
 				width:100%;
 			 text-align:left;
 			}
@@ -554,11 +557,11 @@ footer a:hover {
 			
 	  #trusted {
 					height:40px;
-					width:400px;
+					width:100%;
 					margin:5px;
 					margin-top:50px;
 					padding:0px;
-					font-size: 16px;
+					font-size: 17px;
 					font-weight:bold;
 					line-height: 1em;
 					letter-spacing:-1px;
@@ -576,10 +579,10 @@ footer a:hover {
 				
 				#brands{
 					height:40px;
-					width:380px;
-					margin-top:20px;
-					margin-bottom:5px;
-					margin-left:3px;
+					width:100%;
+					margin-top:40px;
+					margin-bottom:-10px;
+					margin-left:-3px;
 				}
 				
 			
@@ -598,7 +601,7 @@ footer a:hover {
 			}
 
 			/*==========================
-			*COME BACK TO FIX MANIFESTO
+			*MANIFESTO
 			============================
 			*/
 			
@@ -607,15 +610,10 @@ footer a:hover {
 			}
 			
 			#Ourmanifesto{
-				display:block;
-				text-align:left;
-				font-family:"CrimsonSemibold", serif;
-				font-size: 16px;
-				font-weight:bold;
-				color: #232323;
-				line-height: 1em;
-				letter-spacing: -1px;
-				margin: 0px;
+			display:block;
+			text-align: left;
+			font-size: 25px;
+			margin: 0px 0px 10px 35px;
 			}
 			
 			.column,
@@ -624,38 +622,30 @@ footer a:hover {
 				color: #222;
 				font-size: 18px;
 				line-height:1.5em;
-				margin:30px 3px;
+				margin:9px 3px;
 				width:100%;
 			}
 			
-			}
+			
 			.manifesto h3 {
-				float: left;
-				font-size:58px;
-				line-height: normal;
-				margin: -10px 15px 0 0;
-				color:#CCC;
+				
 			}
+			
 			.manifesto h4 {
-				font-family: 'Lucinda Grande', sans-serif;
-				font-size: 16px;
-				margin: 5px 0;
-				color: #C00;
-				text-align: left;
+				margin: 10px 0px 5px 0px;
 			}
+			
 			.manifesto p {
-				font-family: 'Lucinda Grande', sans-serif;
-				text-align:left;
-				line-height:1.4em;
-				font-size: 12px	
-			}
+				 overflow: hidden;
+				}
+			
 			
 			
 			/*
 			*REWORK
 			*/
 			.rework {
-				display:none;
+				display:none;s
 			}
 			
 		
@@ -665,8 +655,12 @@ footer a:hover {
 			
 		
 			.offerings, .column{
-			margin:0px;
-			}
+				width: 100%;
+				margin-right: 30px;
+				margin-left: 0px;
+				text-align: center;
+				}
+			
 			
 			.offerings h2 {
 				display:none;
