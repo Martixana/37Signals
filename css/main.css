@@ -460,6 +460,10 @@ footer a:hover {
 	
 		@media(max-width:578px){
 			
+			body{
+			overflow-x:hidden;
+			}
+			
 			/*
 			*HR STYLES
 			*
@@ -490,6 +494,7 @@ footer a:hover {
 		img{
 		height:32px;
 		width:100px;
+		margin-bottom:20px;
 		}
 			/*
 			*HEADER
@@ -505,19 +510,18 @@ footer a:hover {
 				font-size:20px;
 				font-weight:bold;
 				width:100%;
-				margin:0px 0px 35px 10px;
 				letter-spacing: -1px;
 				line-height:0.8em;
-				text-align:left;
+				text-align:center;
 			}
 			
 			header h5{
 				font-weight:normal;
 				font-size: 13px;
 				line-height: 1.2em;
-				margin: 40px 10px 0px 10px;
-				width:100%;
-			 text-align:left;
+				margin-top:20px;
+				width: 100%;
+				text-align: center;
 			}
 			
 			
@@ -527,18 +531,16 @@ footer a:hover {
 			
 			.products{
 				height: 100%;
-				width:100%;
+				width:90%;
 				padding-bottom:10px;
 				font-family: 'Lucinda Grande', sans-serif;
 			}
 			
 			.products a{
-				position: relative;
-				top: 0px;
-				left: 0px;
-				margin:5px 3px;
+				top:0px;
+				left:0px;
+				margin:5px 3px 3px -4px;
 				width:100%;
-	   flaot:left;
 				padding: 5px 5px;
 			}
 			
@@ -559,7 +561,7 @@ footer a:hover {
 					height:40px;
 					width:100%;
 					margin:5px;
-					margin-top:50px;
+					margin-top:30px;
 					padding:0px;
 					font-size: 17px;
 					font-weight:bold;
@@ -580,7 +582,7 @@ footer a:hover {
 				#brands{
 					height:40px;
 					width:100%;
-					margin-top:40px;
+					margin-top:30px;
 					margin-bottom:-10px;
 					margin-left:-3px;
 				}
@@ -612,24 +614,11 @@ footer a:hover {
 			#Ourmanifesto{
 			display:block;
 			text-align: left;
-			font-size: 25px;
-			margin: 0px 0px 10px 35px;
-			}
-			
-			.column,
-			.column-end{
-			 text-align:left;
-				color: #222;
-				font-size: 18px;
-				line-height:1.5em;
-				margin:9px 3px;
-				width:100%;
+			font-size: 35px;
+			margin: 0px 0px 10px 65px;
 			}
 			
 			
-			.manifesto h3 {
-				
-			}
 			
 			.manifesto h4 {
 				margin: 10px 0px 5px 0px;
@@ -638,6 +627,10 @@ footer a:hover {
 			.manifesto p {
 				 overflow: hidden;
 				}
+				
+				.manifesto + hr {
+			 display:none;	
+			}
 			
 			
 			
@@ -645,21 +638,13 @@ footer a:hover {
 			*REWORK
 			*/
 			.rework {
-				display:none;s
+				display:none;
 			}
 			
 		
 			/*
 			* OFFERINGS
 			*/
-			
-		
-			.offerings, .column{
-				width: 100%;
-				margin-right: 30px;
-				margin-left: 0px;
-				text-align: center;
-				}
 			
 			
 			.offerings h2 {
@@ -675,12 +660,25 @@ footer a:hover {
 				margin:0px;
 			}
 			
-		 .column, .column-end {
-			width:100%;
-			height:100%;
-			padding:0px;
+			.offerings .column {
+			  width: 100%;
+			  margin-right: 30px;
+			  margin-left: 0px;
+			  text-align: center;
+					height:100%;
+					
 			}
 			
+			.offerings .column-end {
+			 float: left;
+			 width: 100%;
+			 margin-right: 30px;
+			 margin-left: 0;
+			 text-align: center;
+			}
+	 
+		
+		
 			
 			
 			}
